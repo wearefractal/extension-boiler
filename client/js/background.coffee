@@ -15,23 +15,20 @@ class Background
     return true if os is "mac" and version < 25
     return false
 
-
   launch: (launchData) =>
     options =
       frame: (if @ifShowFrame() then "chrome" else "none")
-      minWidth: 400
-      minHeight: 400
-      width: 400
-      height: 400
+      minWidth: 800
+      minHeight: 600
+      width: 800
+      height: 600
 
     chrome.app.window.create "index.html", options, (win) =>
       console.log "Window opened:", win
       win.onClosed.addListener @onWindowClosed.bind @, win
 
-
   onWindowClosed: (win) =>
     console.log "Window closed:", win
-
 
   onWindowReady: (win) =>
     @windows.push win
