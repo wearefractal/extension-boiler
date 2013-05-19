@@ -1,0 +1,17 @@
+{
+  "name": "APPNAME",
+  "version": "0.1.0",
+  "dependencies": {
+    "coffee-script": "*"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-jaded": "*",
+    "grunt-reload": "https://github.com/webxl/grunt-reload/archive/master.tar.gz",
+    "grunt-crx":"*"
+  }
+}
