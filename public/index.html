@@ -27,20 +27,6 @@
     <script src="/js/vendor/jade.js"></script>
 
     <script src="/js/vendor/require.js"></script>
-    <script>
-    require({
-        baseUrl: ".",
-        packages: [
-          { name: "templates", location: "/templates"},
-          { name: "app", location: "/js" },
-          { name: "views", location: "/js/views" },
-          { name: "models", location: "/js/models"},
-          { name: "layouts", location: "/js/layouts"},
-          { name: "vendor", location: "/js/vendor" }
-        ]
-      },[
-       'app/main'
-     ]);
-    </script>
+    <script src="/js/loader.js"></script>
   </body>
 </html>

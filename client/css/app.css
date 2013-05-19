@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-overflow-x: hidden;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  -ms-overflow-x: hidden;
+  overflow-x: hidden;
+}
+
+body {
+  margin-top: 41px;
+}

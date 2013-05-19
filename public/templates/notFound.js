@@ -1,0 +1,1 @@
+define(function(){return function anonymous(locals){var buf=[];with(locals||{})buf.push("<center><h1>Not Found</h1><h5>404</h5></center>");return buf.join("")}})

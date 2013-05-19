@@ -35,10 +35,10 @@ Background = (function() {
 
     options = {
       frame: (this.ifShowFrame() ? "chrome" : "none"),
-      minWidth: 500,
+      minWidth: 400,
       minHeight: 400,
-      width: 800,
-      height: 700
+      width: 400,
+      height: 400
     };
     return chrome.app.window.create("index.html", options, function(win) {
       console.log("Window opened:", win);

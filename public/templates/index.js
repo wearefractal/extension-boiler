@@ -1,0 +1,1 @@
+define(function(){return function anonymous(locals){var buf=[];with(locals||{})buf.push('<div class="container-fluid"><h2>Hello World</h2></div>');return buf.join("")}})

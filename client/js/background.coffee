@@ -19,10 +19,10 @@ class Background
   launch: (launchData) =>
     options =
       frame: (if @ifShowFrame() then "chrome" else "none")
-      minWidth: 500
+      minWidth: 400
       minHeight: 400
-      width: 800
-      height: 700
+      width: 400
+      height: 400
 
     chrome.app.window.create "index.html", options, (win) =>
       console.log "Window opened:", win
