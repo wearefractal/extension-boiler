@@ -7,13 +7,7 @@
 
 ## Building the package
 
-You do not have to build the app to install it in Chrome. Building will just extract all the required files and minify the JS code.
-
-Building script requires Python3 and will use online Closure Compiler. Just run
-
-    python3 build.py
-
-and the package will be written to `text-app/build/` directory in zipped and unzipped formats.
+Still working on this - grunt will compile a crx for you in the future.
 
 ## LICENSE
 
